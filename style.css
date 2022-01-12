@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    width: 100%;
+    background-color:#131c21; 
+}
+.outer{
+    display: flex;
+    width: 100%;
+}
+.main{
+    width: 30%;
+    border-right: 1px solid gray;
+}
+
+.image img{
+    width: 35px;
+}
+header{
+    display: flex;
+    padding: 6px;
+    background-color: #2a2f32;
+}
+.hr1{
+    margin: auto; 
+}
+aside{
+    background-color:#131c21;
+    color: white;
+}
+header #right{
+    margin-left: auto;
+
+}
+
+header #right img{
+padding: 9px 8px;
+}
+
+#profile{
+    border-radius: 50%;
+    border: 2px black;
+    height: 40px;
+    width: 40px;
+}
+
+ aside input[type="search"]{
+    margin: 10px;
+    width: 90%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #323739;
+  
+}
+
+.chat-main{
+    display: flex;
+    margin: 10px;
+}
+.chat-main:hover{
+    background: #222f37;
+}
+aside a{
+    text-decoration: none;
+    color: white;
+}
+h5{
+    padding: 2px 10px;
+}
+span{
+     font-size: small;
+  padding:0px 10px;
+}
+.time{
+  margin-left: auto;
+}
+.side-box
+{
+    background-color:#222f37;
+    width: 70%;
+    height: 640px;
+    
+}
+ #side-img{
+    display: block;
+    margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+.center{
+    text-align: center;
+    color: white;
+}
+.line hr{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+hr{
+    border-top: 1px red;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+

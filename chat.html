@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html,body {
+            width: 100%;
+        }
+
+        header {
+            background-color: #2a2f32;
+            height: 60px;
+            display: flex;
+            padding: 6px;
+            position: fixed;
+            width: 100%;
+        }
+
+        .chat-main {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #2a2f32;
+            height: 60px;
+
+        }
+
+        .height-img img {
+            width: 50px;
+            border-radius: 50px;
+        }
+
+        .image-right img {
+            width: 30px;
+            margin: 10px;
+        }
+
+        #right-img {
+            margin-left: auto;
+        }
+
+        .height-img {
+            display: flex;
+        }
+
+        .height-img #text {
+            border-radius: 40px;
+            width: 1200px;
+            border: none;
+            margin: 7px;
+            font-size: medium;
+            background-color: rgba(211, 211, 211, 0.103);
+        }
+
+        footer .height-img img {
+            width: 30px;
+            margin: 10px;
+        }
+
+        .back-image {
+            background-image: url("image/back.jpg");
+            background-color: #cccccc;
+            height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-main">
+        <header>
+            <div class="height-img">
+                <img src="image/images.png" alt="">
+            </div>
+            <div class="image-right" id="right-img">
+                <img src="image/search.png" alt="">
+                <img src="image/dot.png" alt="">
+            </div>
+        </header>
+        <aside class="back-image">
+            <!-- <img src="image/back.jpg" alt=""> -->
+        </aside>
+        <footer>
+            <div class="height-img">
+                <div>
+                    <img src="image/emoji.png" alt="chat">
+                </div>
+                <div>
+                    <img src="image/attach.png" alt="chat">
+                </div>
+
+                <input type="text" id="text" placeholder="&nbsp &nbsp Type a message">
+
+                <div>
+                    <img src="image/microphone.png" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
